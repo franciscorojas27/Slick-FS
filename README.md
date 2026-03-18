@@ -8,6 +8,7 @@ Slick FS trae la experiencia de oil.vim directamente al centro de la pantalla: u
 - Crea rutas completas con un solo InputBox; puedes escribir `public/src/a.tsx` y se crean las carpetas necesarias antes de tocar el archivo.
 - Renombra y elimina rutas desde un prompt que no depende del panel Explorer ni del mouse.
 - El tipo de recurso se detecta automáticamente a partir de la extensión o si la ruta termina en `/`, y se muestran mensajes relevantes cuando ya existe o no existe lo que escribiste.
+- Soporte para expansión de llaves y autocompletado de rutas.
 
 ## Uso rápido
 
@@ -23,6 +24,16 @@ Slick FS trae la experiencia de oil.vim directamente al centro de la pantalla: u
 - `slick-fs.createPath`: Pide la ruta que quieres crear (carpeta si no tiene extensión, archivo si lleva extensión) y genera los padres necesarios.
 - `slick-fs.renamePath`: Pide la ruta existente y la nueva ruta destino antes de renombrar.
 - `slick-fs.deletePath`: Pide la ruta a borrar y confirma antes de eliminar (recursivamente si es carpeta).
+- `slick-fs.navigate`: Permite navegar por las carpetas y revelarlas en el Explorer.
+
+## Instalación
+
+1. Descarga el archivo `.vsix` desde las [Publicaciones](https://github.com/franciscorojas27/Slick-FS/releases).
+2. Instala la extensión en VS Code ejecutando `Extensions: Install from VSIX...`.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
 
 ## Requisitos
 
